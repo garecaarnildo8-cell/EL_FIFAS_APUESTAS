@@ -5,3 +5,4 @@ pandas
 cloudscraper
 beautifulsoup4
 google-generativeai
+pytz
