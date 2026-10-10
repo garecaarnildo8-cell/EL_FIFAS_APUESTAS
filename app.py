@@ -75,7 +75,7 @@ app = Flask(__name__)
 # ==============================================================================
 @app.before_request
 def verificar_actualizacion_diaria():
-    archivo_control = "/home/Arnildo/app_apuestas/ultima_actualizacion.txt"
+    archivo_control = "ultima_actualizacion.txt"
     hoy = datetime.now().strftime("%Y-%m-%d")
 
     try:
