@@ -297,6 +297,15 @@ def auto_scrapear_y_guardar_arbitro(nombre_arbitro):
         }
     except Exception:
         return None
+
+@app.route('/actualizar')
+def actualizar_partidos():
+    try:
+        # Aquí llamas a la función o script que ya usas para sincronizar con API-Football
+        # Por ejemplo: sincronizar_datos() 
+        return "¡Partidos y datos actualizados correctamente desde API-Football!"
+    except Exception as e:
+        return f"Error al actualizar: {str(e)}"
 # ----------------------------------------------------
 # RUTA 1: LA PANTALLA PRINCIPAL (Cartelera Automática)
 # ----------------------------------------------------
